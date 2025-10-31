@@ -1,11 +1,5 @@
 FROM --platform=linux/amd64 python:3.9-slim
 
-# 安装系统依赖，包括 OpenCV 所需的图形库
-RUN apt-get update && apt-get install -y \
-    libgl1-mesa-glx \
-    libglib2.0-0 \
-    && rm -rf /var/lib/apt/lists/*
-
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
