@@ -11,3 +11,4 @@ transformers
 pillow
 opencv-python-headless
 torch
+omegaconf
