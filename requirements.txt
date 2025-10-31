@@ -9,5 +9,5 @@ huggingface_hub
 torchvision
 transformers
 pillow
-opencv-python
+opencv-python-headless
 torch
