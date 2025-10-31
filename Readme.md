@@ -1,7 +1,7 @@
 ## Face Recognition API Project
 
 For the installation of the onnx model used in this project:
-Visit https://drive.usercontent.google.com/download?id=1N0GL-8ehw_bz2eZQWz2b0A5XBdXdxZhg&export=download&authuser=0 and move this model to the "models" folder.
+Visit https://drive.usercontent.google.com/download?id=1N0GL-8ehw_bz2eZQWz2b0A5XBdXdxZhg&export=download&authuser=0 and move this model to the "models" folder (you need to create it by yourself).
 
 This FastAPI project scaffolds the major pieces of a face recognition pipeline for students. Your job is to implement the missing logic in `util.py` so that the `/face-similarity` endpoint can compare two uploaded face images.
 
