@@ -1,5 +1,8 @@
 ## Face Recognition API Project
 
+For the installation of the onnx model used in this project:
+Visit https://drive.usercontent.google.com/download?id=1N0GL-8ehw_bz2eZQWz2b0A5XBdXdxZhg&export=download&authuser=0 and move this model to the "models" folder.
+
 This FastAPI project scaffolds the major pieces of a face recognition pipeline for students. Your job is to implement the missing logic in `util.py` so that the `/face-similarity` endpoint can compare two uploaded face images.
 
 ### What You Need to Implement
@@ -36,12 +39,12 @@ Ensure Docker Desktop (or another Docker engine) is running before you begin.
 - Build the image  
   `docker build -t fr-api -f Docker/Dockerfile .`
 - Run the container with a friendly name  
-  `docker run -d --name fr-container -p 5003:5000 fr-api`
+  `docker run -d --name fr-container -p 5000:5000 fr-api`
 - Check running containers (optional)  
   `docker ps`
 - Tail logs (optional)  
   `docker logs -f fr-container`
 - Open the FastAPI Swagger UI  
-  `http://localhost:5003/docs`
+  `http://localhost:5000/docs`
 - Stop and remove the container when finished  
   `docker stop fr-container && docker rm fr-container`
