@@ -12,3 +12,5 @@ pillow
 opencv-python-headless
 torch
 omegaconf
+timm
+scikit-image
