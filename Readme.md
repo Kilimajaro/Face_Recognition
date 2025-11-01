@@ -37,9 +37,9 @@ Swagger UI is automatically generated at `http://localhost:5003/docs` (ReDoc at 
 Ensure Docker Desktop (or another Docker engine) is running before you begin.
 
 - Build the image  
-  `docker build -t fr-api -f Docker/Dockerfile .`
+  `docker build -t my-python-app -f Docker/Dockerfile .`
 - Run the container with a friendly name  
-  `docker run -d --name fr-container -p 5000:5000 fr-api`
+  `docker run -p 5000:5000 my-python-app`
 - Check running containers (optional)  
   `docker ps`
 - Tail logs (optional)  
@@ -47,4 +47,4 @@ Ensure Docker Desktop (or another Docker engine) is running before you begin.
 - Open the FastAPI Swagger UI  
   `http://localhost:5000/docs`
 - Stop and remove the container when finished  
-  `docker stop fr-container && docker rm fr-container`
+  `docker stop fr-container && docker rm my-python-app`
