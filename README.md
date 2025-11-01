@@ -5,6 +5,8 @@ Or you can build it by yourself as instructed:
 The first step, for the installation of the onnx model used in this project,
 visit https://drive.usercontent.google.com/download?id=1N0GL-8ehw_bz2eZQWz2b0A5XBdXdxZhg&export=download&authuser=0 and move this model to the "models" folder (you need to create it by yourself). Then follow the "Basic Docker Workflow" below.
 
+Or you can just use conda to create a Python==3.12 environment and start by `pip install requirements.txt -r`.
+
 This FastAPI project scaffolds the major pieces of a face recognition pipeline for students. Your job is to implement the missing logic in `util.py` so that the `/face-similarity` endpoint can compare two uploaded face images.
 
 ### What You Need to Implement
