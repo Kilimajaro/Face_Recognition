@@ -7,7 +7,7 @@ visit https://drive.usercontent.google.com/download?id=1N0GL-8ehw_bz2eZQWz2b0A5X
 
 Or you can just use conda to create a Python==3.12 environment and start by `pip install requirements.txt -r`.
 
-This FastAPI project scaffolds the major pieces of a face recognition pipeline for students. Your job is to implement the missing logic in `util.py` so that the `/face-similarity` endpoint can compare two uploaded face images.
+This FastAPI project scaffolds the major pieces of a face recognition pipeline for students.
 
 ### What You Need to Implement
 - `detect_faces(image)` — locate faces in the raw image bytes.
