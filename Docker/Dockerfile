@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 python:3.9-slim
+FROM python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
