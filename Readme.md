@@ -13,7 +13,7 @@ This FastAPI project scaffolds the major pieces of a face recognition pipeline f
 - `antispoof_check(face_image)` — score the likelihood that a face is real.
 - `calculate_face_similarity(image_a, image_b)` — orchestrate the full pipeline: detect, align, spoof-check, embed, and output a similarity score.
 
-All functions currently raise `NotImplementedError`; replace each with your own implementation and add any supporting helpers you need.
+All functions currently can be used except `antispoof_check(face_image)`.
 
 ### API Overview
 - `GET /health` — simple service liveness check.
