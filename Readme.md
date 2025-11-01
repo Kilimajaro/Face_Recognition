@@ -1,7 +1,8 @@
 ## Face Recognition API Project
-**[Important]** You can directly run this app by cmds as below: `docker pull linruixu/my-app-repo`, then `docker run linruixu/my-app-repo`
+**[Important]** You can directly run this app by cmds as below: `docker pull linruixu/my-app-repo`, then `docker run linruixu/my-app-repo`.
+
 Or you can build it by yourself as instructed:
-The first step: For the installation of the onnx model used in this project,
+The first step, for the installation of the onnx model used in this project,
 visit https://drive.usercontent.google.com/download?id=1N0GL-8ehw_bz2eZQWz2b0A5XBdXdxZhg&export=download&authuser=0 and move this model to the "models" folder (you need to create it by yourself). Then follow the "Basic Docker Workflow" below.
 
 This FastAPI project scaffolds the major pieces of a face recognition pipeline for students. Your job is to implement the missing logic in `util.py` so that the `/face-similarity` endpoint can compare two uploaded face images.
