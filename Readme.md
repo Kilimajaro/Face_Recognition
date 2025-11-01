@@ -22,7 +22,7 @@ All functions currently can be used except `antispoof_check(face_image)`.
 - `GET /torch-version` — returns the underlying PyTorch version if installed.
 - `POST /face-similarity` — accepts two uploaded images (`image_a`, `image_b`) and responds with a similarity score once the utilities are implemented. Until then, the endpoint returns HTTP 501.
 
-Swagger UI is automatically generated at `http://localhost:5003/docs` (ReDoc at `/redoc`) when the service is running.
+Swagger UI is automatically generated at `http://localhost:5000/docs` (ReDoc at `/redoc`) when the service is running.
 
 ### Approaches
 - Face detection: Localize each face as a bounding box within the image.
